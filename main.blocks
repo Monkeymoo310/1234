@@ -1,0 +1,121 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="Bc`:~d_GH]F5!aq`}6s4">Player</variable><variable type="KIND_SpriteKind" id="D^?O~d)3F%G/8QSdFUfR">Projectile</variable><variable type="KIND_SpriteKind" id="H;_i?Dut9S+%h6kkR4OV">Food</variable><variable type="KIND_SpriteKind" id="(Xv6B;NFU@M@1)}e02)C">Enemy</variable><variable type="KIND_SpriteKind" id="mH]WO]P*@a:XfR/jNXTy">professer</variable><variable id=")XOu`wi])6I[oET}vs*q">Professor_oak</variable><variable id="eW4yQifOmkNISjI@Y=_x">charmander</variable><variable id="HLE4}Yl6`4f^;:{b`i*|">index</variable><variable id="%4yG[1oxyId}l@fEoi}7">value</variable><variable id="68^u`o%-gF9nF#,@D,Al">list</variable><variable id="HXlSqm?Dk-Ec:5s]B9mV">Pokeball_bulbasaur</variable><variable id="eQ.y8E^BEjAHKoxb]nR^">Pokeball_charmander</variable><variable id="zO2sE$$-x]r78wdwubyc">Pokeball_squirtle</variable><variable id="(KQKk3mM6js+3@wIl(,W">mySprite</variable></variables><block type="pxt-on-start" id="tHa*-`hu6O]4X%,Vl6)H" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="F}~~]2ugqE[g4zei61nk"><field name="VAR" id="HXlSqm?Dk-Ec:5s]B9mV">Pokeball_bulbasaur</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="6(mUMW+OpbOPpdf9u~%~"><value name="img"><shadow type="screen_image_picker" id="P@78dI(?^NDeJ9MvA}(L"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . f 2 7 2 2 2 2 2 f . . . . 
+. . f 2 2 2 7 7 2 2 2 2 f . . . 
+. . f 2 2 2 7 7 2 2 2 2 f . . . 
+. . f 2 2 2 f f f 2 2 2 f . . . 
+. . f f f f f f f f f f f . . . 
+. . f 1 1 1 f f f 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . . f 1 1 1 1 1 1 1 f . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="lNFbY1^J0Y_+OG|w5AvT"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="Pna3NVCBjet~E#2KCv-3"><field name="VAR" id="(KQKk3mM6js+3@wIl(,W">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="7c{Ix)PJWyOr}I+Y5PAv"><value name="img"><shadow type="screen_image_picker" id="Q*+~(=T:JL?HgYo+%Oi,"><field name="img">img`
+. . . . . 2 1 1 1 1 2 . . . . . 
+. . . . 2 2 2 2 2 2 2 2 . . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 . . . 
+. . f 2 2 2 2 2 2 2 2 2 2 f . . 
+. . f 2 2 2 2 2 2 2 2 2 2 f . . 
+. f 1 f 2 2 2 2 2 2 2 2 2 1 f . 
+. f 1 f f f f f f f f f f 1 f . 
+. . f f f f f f f f f f f f . . 
+. . f f f f f f f f f f f f . . 
+. f 1 1 2 2 2 2 2 2 2 2 1 1 f . 
+. f 1 1 2 2 2 2 2 2 2 2 1 1 f . 
+. . f f f 2 2 f f 2 2 f f f . . 
+. . . f 2 f f 2 2 f f 2 f . . . 
+. . . f 2 2 2 f f 2 2 2 f . . . 
+. . . . f f f . . f f f . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="J4{:FWkX+Q#*8F2o3_]t"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="7,[LZGho!C.R$`auQwAB"><field name="VAR" id="eQ.y8E^BEjAHKoxb]nR^">Pokeball_charmander</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="0#u~H:3ba|,I4jNT6[(("><value name="img"><shadow type="screen_image_picker" id="ltQAV12Bw13B~_c1geyw"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . f 2 2 2 2 2 2 2 f . . . . 
+. . f 2 2 2 4 5 4 2 2 2 f . . . 
+. . f 2 2 2 4 4 4 2 2 2 f . . . 
+. . f 2 2 2 f f f 2 2 2 f . . . 
+. . f f f f f f f f f f f . . . 
+. . f 1 1 1 f f f 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . . f 1 1 1 1 1 1 1 f . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="SuGSu)I48q)0d9Lqx;(("><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="r@`}(8iHG@Aam.ti+erx"><field name="VAR" id="zO2sE$$-x]r78wdwubyc">Pokeball_squirtle</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="{bY98XCsbB]TQ.0ZpWvl"><value name="img"><shadow type="screen_image_picker" id="t]58mzP_Q$vABGE,?tO-"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . f 2 2 6 6 2 2 2 f . . . . 
+. . f 2 2 2 6 2 2 2 2 2 f . . . 
+. . f 2 2 2 8 8 8 2 2 2 f . . . 
+. . f 2 2 2 f f f 2 2 2 f . . . 
+. . f f f f f f f f f f f . . . 
+. . f 1 1 1 f f f 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . f 1 1 1 1 1 1 1 1 1 f . . . 
+. . . f 1 1 1 1 1 1 1 f . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="tRd/rDXyWrqc5N#x8j44"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="j/^NvhmB^m+=$4J8S.N#"><field name="VAR" id=")XOu`wi])6I[oET}vs*q">Professor_oak</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="h^03^m2v*:y)OpWc#oz}"><value name="img"><shadow type="screen_image_picker" id="gT=v`,%adAcHoT$Q!iM!"><field name="img">img`
+. . . . . f f f f f f . . . . . 
+. . f f f b b b b b b f . . . . 
+. . . f b f f b f f f b f . . . 
+. . . f f 1 1 f 1 1 1 f f . . . 
+. . f f 1 1 1 1 1 1 1 1 f f . . 
+. f 1 f 1 1 1 1 1 1 1 1 f 1 f . 
+. f 1 1 1 1 f 1 1 f 1 1 1 1 f . 
+. f 1 1 1 1 f 1 1 f 1 1 1 1 f . 
+. . f f 1 1 1 1 1 1 1 1 f f . . 
+. f f 1 f 1 1 1 1 1 1 f 1 f f . 
+f 1 1 f b f f f f f f b f 1 1 f 
+f 1 1 f b b f f f f b b f 1 1 f 
+. f f f b b f 2 2 f b b f f f . 
+. . f b b b f f f f b b b f . . 
+. . . f f f f f f f f f f . . . 
+. . f f f f f . . f f f f f . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="WrCL^MSLBNBOoyIGL9~q"><field name="MEMBER">professer</field></shadow></value></block></value><next><block type="tilemap_editor" id="mh1So]x[/.]z%yYGqpR5"><field name="tilemap">tiles.createTilemap(hex`0a0008000202020202020303030301010101010104040404010101010101010101010101010101010101010101010101010105060701010101010101010101010303030101030303030304040401010404040404`, img`
+. . . . . . 2 2 2 2 
+. . . . . . 2 2 2 2 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . 2 2 2 . 
+. . . . . . . . . . 
+2 2 2 . . 2 2 2 2 2 
+2 2 2 . . 2 2 2 2 2 
+`, [myTiles.transparency16,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11], TileScale.Sixteen)</field><next><block type="game_control_sprite" id="m;e@0.G=GWq_@CKR/OWk"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id=":{zFVIp2wxex;lP;+xg["><field name="VAR" id="(KQKk3mM6js+3@wIl(,W">mySprite</field></block></value><next><block type="spritesetpos" id="jVIS%lnO[pH:-iVJVEz%"><value name="sprite"><block type="variables_get" id="W?CLsb@wK-`20RPY`c2s"><field name="VAR" id="HXlSqm?Dk-Ec:5s]B9mV">Pokeball_bulbasaur</field></block></value><value name="x"><shadow type="positionPicker" id="_MI-5TbCXf_iV[J=^K^2"><field name="index">105</field></shadow></value><value name="y"><shadow type="positionPicker" id="(({Om+AZ%OSvT86k94XI"><field name="index">70</field></shadow></value><next><block type="spritesetpos" id="o!4J{ST0kHwjufrOsP)~"><value name="sprite"><block type="variables_get" id="Y-wdww%RqetO|9#2cU;-"><field name="VAR" id="eQ.y8E^BEjAHKoxb]nR^">Pokeball_charmander</field></block></value><value name="x"><shadow type="positionPicker" id="IS@nH$E?~5^Ib@2!#)h0"><field name="index">120</field></shadow></value><value name="y"><shadow type="positionPicker" id="0M,9q?b`A1,78i4B;.S5"><field name="index">70</field></shadow></value><next><block type="spritesetpos" id="Tg+22])Q7l(W_Ig0YYSY"><value name="sprite"><block type="variables_get" id="(3pl0nx]vVOt;GbSA/(~"><field name="VAR" id="zO2sE$$-x]r78wdwubyc">Pokeball_squirtle</field></block></value><value name="x"><shadow type="positionPicker" id="82lH}@mh0/9+qqUo,,nX"><field name="index">135</field></shadow></value><value name="y"><shadow type="positionPicker" id="qi${s1s`=2{aUyCwTa~y"><field name="index">70</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="variables_set" id="0u1:**713|=#g;z8dhDH" disabled="true" x="310" y="670"><field name="VAR" id="eW4yQifOmkNISjI@Y=_x">charmander</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="W3h|21:M1C^lzrKiUKbg" disabled="true"><value name="img"><shadow type="screen_image_picker" id="P{.Xgzc@8As==W!l]JEl" disabled="true"><field name="img">img`
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.....f.........ffff......
+....f2f.......f4444f.....
+...f22f......f444444f....
+...f22f......f444444f....
+..f4422f....f44444444f...
+..f4542f....f444f14444f..
+..f4552f...f4444ff4444f..
+...ff4f....f4444ff4444f..
+....f4f...f4444444444f...
+....f44f.f444444444ff....
+....ff44ff444f44fff......
+.....f44f44444f55f.......
+......f4f444ff555f.......
+.......ff444455551f......
+........ff44444fff.......
+.........ff4fff..........
+.........f141f...........
+..........fff............
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="`AmKY,?.b0/MA~azQ{{J" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block></xml>
